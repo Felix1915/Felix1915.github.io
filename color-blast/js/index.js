@@ -211,7 +211,7 @@ var Player = function(){
 	this.movingRight = false;
 	this.speed = 8;
 	this.invincible = false;
-	this.color = "white";
+	this.color = "dark red";
 };
 
 
@@ -270,7 +270,7 @@ var Bullet = function(x){
 	this.vy = 8;
 	this.index = Game.bulletIndex;
 	this.active = true;
-	this.color = "blue";
+	this.color = "dark red";
 	
 };
 
